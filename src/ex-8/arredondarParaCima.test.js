@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { arredondarParaBaixo } from "./arredondarParaBaixo";
+import { arredondarParaCima } from "./arredondarParaCima";
 
 
 describe('arredondarParaBaixo', () => {
@@ -11,6 +11,6 @@ describe('arredondarParaBaixo', () => {
         [-5, -5],
         [-5.6, -5]
     ])('arredondarParaBaixo(%d) => %d', (x, result) => {
-        expect(arredondarParaBaixo(x)).toBe(result);
+        expect(arredondarParaCima(x)).toBe(result);
     })
 })

@@ -10,8 +10,6 @@
  * É possível resolver esse e alguns outros problemas com a ajuda da biblioteca.
  * Recomendo dar uma conferida nas funções que existem la
  * Vai pro canto
- * 
- * Depois que conseguir com a ajuda do Math se quiser um desafio a mais pode tentar fazer só com matematica.
  */
 export const arredondarParaBaixo = () => {
 

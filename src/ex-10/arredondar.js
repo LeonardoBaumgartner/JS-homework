@@ -5,7 +5,6 @@
  * 
  * Existe uma função no objeto Math que resolve isso, recomendo usar ela de inicio
  * 
- * Depois, comenta o código da solução e tenta resolver de maneira matemática.
  * Lembrando que você ja implementou o código de arredondar pra cima e arredondar pra baixo.
  * Você pode importar a função daqueles testes (você aprendeu como fazer isso no exercicio passado) para arredondar o número, aproveitando código
  * Vai pro canto
