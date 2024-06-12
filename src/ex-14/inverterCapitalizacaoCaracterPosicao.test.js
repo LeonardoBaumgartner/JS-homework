@@ -9,7 +9,7 @@ describe('inverterCapitalizacaoCaracterPosicao', () => {
         ['Regiane', 4, 'RegiAne'],
         ['MuLeKe ZiKa', 9, 'MuLeKe Zika']
     ])('inverterCapitalizacaoCaracterPosicao("%s", %i) => %s', (word, position, newWord) => {
-        expect(inverterCapitalizacaoCaracterPosicao(word, position).toBe(newWord));
+        expect(inverterCapitalizacaoCaracterPosicao(word, position)).toBe(newWord);
     })
 
     it('Should return undefined if position is it doesnt exist a char in that position', () => {
