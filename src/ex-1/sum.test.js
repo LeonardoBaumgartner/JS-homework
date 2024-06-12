@@ -14,8 +14,8 @@ describe("Sum", () => {
         expect(sum(x1, x2)).toBe(result);
     });
     it("Deve retornar undefined se um dos valores fornecidos para a função não for um número", () => {
-        expect(sum('a', 'b')).toBe(undefined);
-        expect(sum(1, false)).toBe(undefined);
-        expect(sum(4, [])).toBe(undefined);
+        expect(sum('a', 'b')).toBeUndefined();
+        expect(sum(1, false)).toBeUndefined();
+        expect(sum(4, [])).toBeUndefined();
     })
 })

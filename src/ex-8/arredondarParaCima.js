@@ -11,6 +11,6 @@
  * Recomendo dar uma conferida nas funções que existem la
  * Vai pro canto
  */
-export const arredondarParaCima = () => {
-
+export const arredondarParaCima = (number) => {
+    return Math.ceil(number);
 }

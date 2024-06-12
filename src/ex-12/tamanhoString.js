@@ -8,6 +8,6 @@
  * Por exemplo, uma das funções é a função endsWith
  * Logo, 'jamelao'.endsWith('o') permite verificar se a palavra jamelão termina com a letra o (retornaria true nesse caso);
  */
-export const tamanhoString = () => {
-
+export const tamanhoString = (word) => {
+    return word.length;
 }

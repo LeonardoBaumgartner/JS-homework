@@ -20,3 +20,18 @@
  * 
  * Desafio - Depois de concluir esse exercicio, pesquisar o que é recursão e tentar implementar utilizando recursão
  */
+export const fibonacci = (quantity) => {
+    if (quantity <= 0) return undefined;
+    return fibonacciRecursive(quantity, []);
+}
+
+const fibonacciRecursive = (quantityRemaining, currentNumbers) => {
+    if (!quantityRemaining) return currentNumbers.join(' ');
+
+    const nextQuantity = quantityRemaining - 1;
+    if (!currentNumbers.length) return fibonacciRecursive(nextQuantity, [1]);
+    if (currentNumbers.length === 1) return fibonacciRecursive(nextQuantity, [1, 1]);
+    
+    const currentValue = currentNumbers.at(-1) + currentNumbers.at(-2)
+    return fibonacciRecursive(nextQuantity, [...currentNumbers, currentValue]);
+}

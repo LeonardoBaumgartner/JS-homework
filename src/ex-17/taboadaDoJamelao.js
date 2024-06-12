@@ -20,3 +20,8 @@
  * '5x9=45'
  * '5x10=50'
  */
+export const taboadaDoJamelao = (number) => {
+    for (let index = 0; index <= 10; index++){
+        console.log(`${number}x${index}=${number * index}`);
+    }
+}

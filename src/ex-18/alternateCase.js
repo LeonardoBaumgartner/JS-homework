@@ -6,3 +6,15 @@
  * alternateCase('vai pro canto') => 'VaI pRo CaNtO'
  * altenateCase('a1a1a1') => 'A1a1A1'
  */
+
+export const alternateCase = (word) => {
+    let alternateWord = '';
+    for (let index = 0, shouldUpperCase = true; index < word.length; index++){
+        const char = word[index];
+        if (char !== ' ' && Number.isNaN(Number(char))) {
+            alternateWord += shouldUpperCase ? char.toUpperCase(): char.toLowerCase();
+            shouldUpperCase = !shouldUpperCase;
+        } else alternateWord += char;
+    }
+    return alternateWord;
+}

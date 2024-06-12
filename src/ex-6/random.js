@@ -2,4 +2,6 @@
  * Escreva uma função que retorna um número aleatório
  * Dica: google jamelão
  */
-export const random = () => {}
+export const random = () => {
+    return Math.random();
+}

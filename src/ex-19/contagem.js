@@ -10,3 +10,11 @@
  * Deve ser tratado o caso do x ser um número negativo, retornando undefined.
  * 
  */
+export const contagem = (quantity) => {
+    if (quantity < 0) return undefined;
+    let result = '0';
+    for (let index = 1; index <= quantity; index++){
+        result = `${result},${index}`;
+    }
+    return result;
+}

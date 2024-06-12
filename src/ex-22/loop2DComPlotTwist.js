@@ -1,3 +1,5 @@
+import { generateLineCharacters, loop2D } from "../ex-21/loop2D"
+
 /**
  * Jamelão, esse arquivo deve exportar uma função chamada loop2DComPlotTwist
  * Ela receberá como primeiro argumento um número x, e como segundo um caractere char
@@ -22,3 +24,16 @@
  * se x for 0, retorne undefined.
  *  Vai pro canto jamelão
  */
+export const loop2DComPlotTwist = (quantity, char) => {
+    if (quantity === 0) return undefined;
+
+    if (quantity > 0) return loop2D(quantity, char);
+
+    let word = '';
+    for (let itemsPerLine = Math.abs(quantity); itemsPerLine >= 1; itemsPerLine--){
+        const currentLine = generateLineCharacters(char, itemsPerLine);
+        word = itemsPerLine === Math.abs(quantity) ? currentLine : `${word}\n${currentLine}`;
+    }
+    console.log(word)
+    return word;
+}

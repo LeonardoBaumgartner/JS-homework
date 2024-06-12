@@ -9,6 +9,6 @@
  * Você pode importar a função daqueles testes (você aprendeu como fazer isso no exercicio passado) para arredondar o número, aproveitando código
  * Vai pro canto
 */
-export const arredondar = () => {
-
+export const arredondar = (number) => {
+    return Math.round(number);
 }

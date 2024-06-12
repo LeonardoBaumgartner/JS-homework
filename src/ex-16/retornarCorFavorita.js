@@ -10,6 +10,14 @@
  * 
  * Caso o nome passado não seja nenhum dos listados, retorne undefined
  */
-export const retornarCorFavorita = () => {
-
+export const retornarCorFavorita = (name) => {
+    switch(name){
+        case 'Léo': return 'Rosa';
+        case 'Augusto': return 'Preto';
+        case 'Maria': return 'Amarelo';
+        case 'Matheus': return 'Azul';
+        case 'Marcelo': return 'Vermelho';
+        case 'Tyrone': return 'Branco';
+        default: return undefined;
+    }
 }

@@ -11,6 +11,6 @@
  * Recomendo dar uma conferida nas funções que existem la
  * Vai pro canto
  */
-export const arredondarParaBaixo = () => {
-
+export const arredondarParaBaixo = (number) => {
+    return Math.floor(number);
 }

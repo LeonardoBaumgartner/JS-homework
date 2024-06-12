@@ -17,3 +17,24 @@
  * caso x for 0, retorne uma string vazia ''
  * se x for um número negativo, retorne undefined;
  */
+
+export const generateLineCharacters = (char, quantityCharacters) => {
+    let currentLine = char;
+    for (let letterNumber = 2; letterNumber <= quantityCharacters; letterNumber++){
+        currentLine += ` ${char}`;
+    }
+    return currentLine;
+}
+
+export const loop2D = (quantity, char) => {
+    if (quantity < 0) return undefined;
+    if (quantity === 0) return '';
+    
+    let result = ''
+    for (let lineNumber = 1; lineNumber <= quantity; lineNumber++){
+        const currentLine = generateLineCharacters(char, lineNumber);
+        result = lineNumber === 1 ? currentLine : `${result}\n${currentLine}`;
+    }
+    
+    return result;
+}

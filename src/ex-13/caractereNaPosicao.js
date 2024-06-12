@@ -4,6 +4,7 @@
  * ex: caractereNaPosicao('Leo', 0) => 'L' // Em javascript, listas são indexadas a partir de 0, ou seja, o primeiro item de uma lista está na posição 0.
  * caractereNaPosicao('Jamelão', 6) => 'ã'
  */
-export const caractereNaPosicao = () => {
-
+export const caractereNaPosicao = (word, position) => {
+    if (position >= word.length) return undefined;
+    return word[position];
 }
