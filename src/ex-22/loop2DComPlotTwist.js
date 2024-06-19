@@ -21,4 +21,6 @@
  * 
  * se x for 0, retorne undefined.
  *  Vai pro canto jamelão
+ * 
+ * skills necessárias: Laços de repetição, manipulação de string, operador condicional
  */

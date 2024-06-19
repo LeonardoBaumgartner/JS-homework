@@ -19,4 +19,7 @@
  * '5x8=40'
  * '5x9=45'
  * '5x10=50'
+ * 
+ * 
+ * skills necessárias: Operações matematicas, manipulação de string, laços de repetição
  */

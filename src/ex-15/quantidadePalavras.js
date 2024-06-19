@@ -4,6 +4,8 @@
  * ex: quantidadePalavras('Jamelão') => 1
  * quantidadePalavras('Vai pro canto Jamelão') => 4
  * quantidadePalavras('A e I o U') => 5
+ * 
+ * skills necessárias: Manipulação de string, operadores condicionais, laços de repetição
  */
 export const quantidadePalavras = () => {
 

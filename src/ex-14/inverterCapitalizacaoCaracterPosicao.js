@@ -5,6 +5,8 @@
  * Se o char for maiusculo, deve passar a ser minusculo
  * 
  * ex: inverterCapitalizacaoCaracterPosicao('Jamelão', 0) => 'jamelão'
+ * 
+ * skills necessárias: Manipualação de string, operadores condicionais, laços de repetição
  */
 export const inverterCapitalizacaoCaracterPosicao = () => {
 

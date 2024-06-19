@@ -5,4 +5,6 @@
  * ex: alternateCase('jamelão') => 'JaMeLãO' 
  * alternateCase('vai pro canto') => 'VaI pRo CaNtO'
  * altenateCase('a1a1a1') => 'A1a1A1'
+ * 
+ * skills necessárias: Operadores condicionais, manipulação de string, laços de repetição
  */

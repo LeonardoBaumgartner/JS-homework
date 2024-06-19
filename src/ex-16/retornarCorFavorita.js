@@ -9,6 +9,8 @@
  * Tyrone: Branco
  * 
  * Caso o nome passado não seja nenhum dos listados, retorne undefined
+ * 
+ * skills necessárias: operadores condicionais
  */
 export const retornarCorFavorita = () => {
 

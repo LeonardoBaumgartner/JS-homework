@@ -16,4 +16,6 @@
  * 
  * caso x for 0, retorne uma string vazia ''
  * se x for um número negativo, retorne undefined;
+ * 
+ * skills necessárias: Laços de repetição, manipulação de string
  */

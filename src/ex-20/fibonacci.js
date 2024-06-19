@@ -19,4 +19,6 @@
  * fibonacci(-1) => undefined
  * 
  * Desafio - Depois de concluir esse exercicio, pesquisar o que é recursão e tentar implementar utilizando recursão
+ * 
+ * skills necessárias: Operações matematicas, laço de repetição, operador condicional, manipulação de string
  */

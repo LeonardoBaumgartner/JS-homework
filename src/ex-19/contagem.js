@@ -9,4 +9,6 @@
  * 
  * Deve ser tratado o caso do x ser um número negativo, retornando undefined.
  * 
+ * skills necessárias: Laços de repetição, manipulação de string
+ * 
  */
